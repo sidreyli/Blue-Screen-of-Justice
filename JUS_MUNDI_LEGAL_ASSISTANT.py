@@ -6,7 +6,7 @@ import os
 from datetime import datetime
 import uuid
 
-os.environ["OPENAI_API_KEY"] = "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" 
+os.environ["OPENAI_API_KEY"] = "my open api key- removed from here due to security reasons" 
 
 # Initialize LLMs
 llm1 = ChatOpenAI(model="gpt-4", temperature=0.9)
@@ -466,3 +466,4 @@ if __name__ == "__main__":
     print(f"Chain 2 (Defense) output length: {len(results['chain2'])} characters")
     print(f"Final Analysis length: {len(results['final_analysis'])} characters")
     print(f"Check the 'markdown_outputs' folder for detailed legal documents")
+
